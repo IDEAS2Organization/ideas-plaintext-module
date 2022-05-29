@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletRequest;
 
 
 @Controller
-@RequestMapping("/language")
+@RequestMapping("/ideas-plaintext-language/language")
 public class TXTLanguageController extends BaseLanguageController {
 
 	@RequestMapping(value = "/format/{format}/checkLanguage", method = RequestMethod.POST)
